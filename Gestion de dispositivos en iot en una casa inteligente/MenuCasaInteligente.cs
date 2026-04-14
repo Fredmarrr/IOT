@@ -45,14 +45,36 @@ public class MenuCasaInteligente
         }
 
     }
+ 
     private void MenuCasa(DispositivoBase dispositivo)
     {
         Console.WriteLine($"\n--- Controlando: {dispositivo.NombreDisp} ---");
         Console.WriteLine("1. Encender / Apagar");
         Console.WriteLine("2. Activar Modo Ecológico");
-        if(dispositivo is Televisor)
+        if(dispositivo is Televisor tele)
         {
-
+            Console.WriteLine("3. Subir/Bajar volumen");
+            Console.WriteLine("4. Cambiar de canales");
         }
+        else if (dispositivo is Radio rad)
+        {
+            Console.WriteLine("3. Subir/Bajar volumen");
+            Console.WriteLine("4. Cambiar de frecuencia");
+        }
+        else if(dispositivo is AireAcondicionado aire)
+        {
+            Console.WriteLine("3. Subir/Bajar temperatura");
+            Console.WriteLine("4. Cambiar velocidad");
+        }
+        else if(dispositivo is PuertaInteligente puerta)
+        {
+            Console.WriteLine("3. Abrir/Cerrar ");
+            Console.WriteLine("4. Poner/Quitar seguro");
+        }
+        else if(dispositivo is PortonGaraje porton)
+        {
+            Console.WriteLine("3. Abrir/Cerrar ");
+        }    
     }
+   
 }﻿
