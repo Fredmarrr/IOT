@@ -1,6 +1,6 @@
 public class MenuCasaInteligente
 {
-    List<DispositivoBase> _dispositivos;
+    private List<DispositivoBase> _dispositivos;
     public MenuCasaInteligente(List<DispositivoBase> dispositivos)
     {
         _dispositivos = dispositivos;
@@ -9,39 +9,46 @@ public class MenuCasaInteligente
     {
         bool salir = false;
         int num;
-        Console.Clear();
-        Console.WriteLine("=== PANEL CENTRAL DE LA CASA INTELIGENTE ===");
+        while (!salir)
+        {
+          
+            Console.Clear();
+            Console.WriteLine("=== PANEL CENTRAL DE LA CASA INTELIGENTE ===");
 
-        // Imprimimos todos los dispositivos disponibles
-        for (int i = 0; i < _dispositivos.Count; i++)
-        {
-            var disp = _dispositivos[i];
-            string estado = disp.EstadoOF ? "ON" : "OFF";
-            Console.WriteLine($"{i + 1}. {disp.NombreDisp} [{estado}]");
-        }
-        Console.Write("\nElige el número del dispositivo a controlar: ");
-        Console.WriteLine("0. Salir del sistema");
-        do
-        {
-            try
+            // Imprimimos todos los dispositivos disponibles
+            for (int i = 0; i < _dispositivos.Count; i++)
             {
-                num = int.Parse(Console.ReadLine());
-                if (num == 0)
+                var disp = _dispositivos[i];
+                string estado = disp.EstadoOF ? "ON" : "OFF";
+                Console.WriteLine($"{i + 1}. {disp.NombreDisp} [{estado}]");
+            }
+            Console.Write("\nElige el número del dispositivo a controlar: ");
+            Console.WriteLine("0. Salir del sistema");
+
+            do
+            {
+                try
                 {
-                    salir = true;
-                    continue;
+                    num = int.Parse(Console.ReadLine());
+                    if (num == 0)
+                    {
+                        Environment.Exit(0);
+                        
+                        return;
+                    }
                 }
-            }
-            catch (Exception e)
+                catch (FormatException e)
+                {
+                    Console.WriteLine("Dato invalido");
+                    num = -1;
+                }
+            } while (num == -1);
+            if (num > 0 && num < _dispositivos.Count)
             {
-                Console.WriteLine("Dato invalido");
-                num = -1;
+                DispositivoBase dispositivo = _dispositivos[num - 1];
+                MenuCasa(dispositivo);
             }
-        } while (num == -1);
-        if(num>0&&num<_dispositivos.Count)
-        {
-            DispositivoBase dispositivo = _dispositivos[num-1];
-            MenuCasa(dispositivo);
+
         }
 
     }
