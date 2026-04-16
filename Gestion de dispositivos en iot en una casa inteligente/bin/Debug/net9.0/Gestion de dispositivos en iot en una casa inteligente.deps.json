@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Gestion de dispositivos en iot en una casa inteligente/1.0.0": {
+        "runtime": {
+          "Gestion de dispositivos en iot en una casa inteligente.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gestion de dispositivos en iot en una casa inteligente/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -21,16 +21,37 @@
     {
         CanalActual = canalActual;
     }
+
     public void CambiarCanales()
     {
-        int nuevoCanal;
         Console.WriteLine("Cambiando canal por:\n");
-        nuevoCanal = int.Parse(Console.ReadLine());
-        CanalActual = nuevoCanal;
-        Console.WriteLine($"Canal actual: {CanalActual}\n");
+        try
+        {
+            int nuevoCanal = int.Parse(Console.ReadLine());
+            CanalActual = nuevoCanal;
+            Console.WriteLine($"Canal actual: {CanalActual}\n");
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Dato inválido. Debes ingresar un número.");
+        }
+        catch (ArgumentOutOfRangeException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
     public override void ModoEcologico()
     {
-        Console.WriteLine($"Modo ecologico activado para [{Id}]-{NombreDisp} se bajó el brillo del dispositivo\n");
+        if(!ModoEco)
+        {
+            Console.WriteLine($"Modo ecologico activado para [{Id}]-{NombreDisp} se bajó el brillo del dispositivo\n");
+            ModoEco = true;
+        }
+        else if(ModoEco)
+        {
+            Console.WriteLine($"Modo ecologico desactivado para [{Id}]-{NombreDisp}\n");
+            ModoEco = false;
+        }
+        
     }
 }

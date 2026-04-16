@@ -11,26 +11,22 @@
                 _velocidad = value;
             else
             {
-                throw new ArgumentOutOfRangeException(nameof(value), "El volumen debe estar entre 0 y 100.");
+                throw new ArgumentOutOfRangeException(nameof(value), "la velocidad debe estar entre 1 y 3.");
             }
         }
-        
+
     }
-    public AireAcondicionado(int velocidad, string nombreDisp, string id,int temperatura):base(temperatura,nombreDisp,id)
+    public AireAcondicionado(int velocidad, string nombreDisp, string id, int temperatura) : base(temperatura, nombreDisp, id)
     {
-        Velocidad=velocidad;
+        Velocidad = velocidad;
     }
     public void CambiarVelocidad()
     {
         int velocidadNueva;
         Console.WriteLine("Cambiando velocidad por: \n");
         velocidadNueva = int.Parse(Console.ReadLine());
-        if (velocidadNueva <= 3 && velocidadNueva > 0)
-        {
-            Velocidad = velocidadNueva;
-            Console.WriteLine($"Velocidad: {Velocidad}\n");
-        }
 
-        
+        Velocidad = velocidadNueva;
+
     }
 }

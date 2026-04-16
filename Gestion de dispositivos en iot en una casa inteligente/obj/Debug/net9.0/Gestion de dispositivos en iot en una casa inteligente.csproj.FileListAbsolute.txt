@@ -1,0 +1,15 @@
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\bin\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.exe
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\bin\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.deps.json
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\bin\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.runtimeconfig.json
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\bin\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.dll
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\bin\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.pdb
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.AssemblyInfoInputs.cache
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.AssemblyInfo.cs
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.csproj.CoreCompileInputs.cache
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.sourcelink.json
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.dll
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\refint\Gestion de dispositivos en iot en una casa inteligente.dll
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.pdb
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\Gestion de dispositivos en iot en una casa inteligente.genruntimeconfig.cache
+C:\Users\fredy\source\repos\IOT\Gestion de dispositivos en iot en una casa inteligente\obj\Debug\net9.0\ref\Gestion de dispositivos en iot en una casa inteligente.dll
