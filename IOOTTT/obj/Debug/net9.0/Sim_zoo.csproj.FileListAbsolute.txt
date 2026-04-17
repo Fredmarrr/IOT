@@ -1,0 +1,14 @@
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\bin\Debug\net9.0\Sim_zoo.exe
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\bin\Debug\net9.0\Sim_zoo.deps.json
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\bin\Debug\net9.0\Sim_zoo.runtimeconfig.json
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\bin\Debug\net9.0\Sim_zoo.dll
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\bin\Debug\net9.0\Sim_zoo.pdb
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\obj\Debug\net9.0\Sim_zoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\obj\Debug\net9.0\Sim_zoo.AssemblyInfoInputs.cache
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\obj\Debug\net9.0\Sim_zoo.AssemblyInfo.cs
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\obj\Debug\net9.0\Sim_zoo.csproj.CoreCompileInputs.cache
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\obj\Debug\net9.0\Sim_zoo.dll
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\obj\Debug\net9.0\refint\Sim_zoo.dll
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\obj\Debug\net9.0\Sim_zoo.pdb
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\obj\Debug\net9.0\Sim_zoo.genruntimeconfig.cache
+C:\Users\Laptop\source\repos\Sim_zoo\Sim_zoo\obj\Debug\net9.0\ref\Sim_zoo.dll
