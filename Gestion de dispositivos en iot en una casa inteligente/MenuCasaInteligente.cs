@@ -20,7 +20,7 @@ public class MenuCasaInteligente
         {
             Console.Clear();
             Console.WriteLine("=== PANEL CENTRAL DE LA CASA INTELIGENTE ===");
-
+             
             // Imprimimos todos los dispositivos disponibles
             for (int i = 0; i < _dispositivos.Count; i++)
             {
@@ -63,7 +63,10 @@ public class MenuCasaInteligente
             }
         }
     }
-
+    /// <summary>
+    /// Es el menu interactivo para realizar diversas acciones con los dispositivos
+    /// </summary>
+    /// <param name="dispositivo"></param>
     private void MenuCasa(DispositivoBase dispositivo)
     {
         string opc;

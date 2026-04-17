@@ -19,7 +19,11 @@
     public AireAcondicionado(int velocidad, string nombreDisp, string id, int temperatura) : base(temperatura, nombreDisp, id)
     {
         Velocidad = velocidad;
+
     }
+    /// <summary>
+    ///Cambia la velocidad de aire acondicionado
+    /// </summary>
     public void CambiarVelocidad()
     {
         int velocidadNueva;

@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gestion de dispositivos en iot en una casa inteligente")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b06bcdeabf7ab00777692d30c7a2475099e3b5cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gestion de dispositivos en iot en una casa inteligente")]

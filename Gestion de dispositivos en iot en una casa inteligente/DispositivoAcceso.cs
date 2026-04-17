@@ -7,12 +7,18 @@
     {
         estadoAbCe = false;
     }
+    /// <summary>
+    /// Abre el dispositivo acceso
+    /// </summary>
     public virtual void Abrir()
     {
         Console.WriteLine("Abriendo...\n");
         EstadoAbCe = true;
         Console.WriteLine($"Se abrió [{Id}]-{NombreDisp}\n");
     }
+    /// <summary>
+    /// Cierra el dispositivo acceso
+    /// </summary>
     public virtual void Cerrar()
     {
         Console.WriteLine("Cerrando...\n");

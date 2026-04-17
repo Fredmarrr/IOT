@@ -9,7 +9,7 @@
     {
         NombreDisp = nombreDisp;
         EstadoOF = false;
-        Id = id;
+        Id = id; 
         ModoEco = false;
     }
     public string NombreDisp
@@ -39,7 +39,9 @@
     }
     public bool EstadoOF { get => _estadoOF; protected set => _estadoOF = value; }
     public bool ModoEco { get => _modoEco; set => _modoEco = value; }
-
+    /// <summary>
+    /// Enciende el dispositivo
+    /// </summary>
     public virtual void Encender()
     {
         Console.WriteLine($"Encendiendo dispositivo [{Id}]-{NombreDisp}...\n");
@@ -48,6 +50,9 @@
         Console.WriteLine(EstadoOF ? "Disponibilidad: disponible" : "Disponibilidad: no disponible");
       
     }
+    /// <summary>
+    /// Apaga el dispositivo
+    /// </summary>
     public virtual void Apagar()
     {
         Console.WriteLine($"Apagando dispositivo [{Id}]-{NombreDisp}...\n");

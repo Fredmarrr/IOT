@@ -7,16 +7,22 @@
     {
         seguro = false;
     }
+    /// <summary>
+    /// Activa y pone el seguro a puerta inteligente
+    /// </summary>
     public void PonerSeguro()
     {
         Console.WriteLine($"Poniendo seguro a [{Id}]-{NombreDisp}");
         Seguro = true;
         Console.WriteLine($"Seguro puesto para [{Id}]-{NombreDisp}\n");
     }
+    /// <summary>
+    /// Cierra y quita el seguro a puerta inteligente
+    /// </summary>
     public void QuitarSeguro()
     {
         Console.WriteLine($"Quitando seguro a [{Id}]-{NombreDisp}");
-        Seguro = false;
+        Seguro = false; 
         Console.WriteLine($"Seguro quitado para [{Id}]-{NombreDisp}\n");
     }
 

@@ -1,4 +1,4 @@
-﻿public class Radio : DispositivoEntret
+﻿ public class Radio : DispositivoEntret
 {
     private decimal _frecuenciaActual;
     public decimal FrecuenciaActual
@@ -20,6 +20,9 @@
     {
         FrecuenciaActual = frecuenciaActual;
     }
+    /// <summary>
+    /// Cambia la frecuencia de Radio junto a su validacion
+    /// </summary>
     public void CambiarFrecuencia()
     {
         decimal nuevaFrecuencia;
@@ -28,6 +31,9 @@
         FrecuenciaActual = nuevaFrecuencia;
         Console.WriteLine($"Canal actual: {FrecuenciaActual}\n");
     }
+    /// <summary>
+    /// Utiliza otro metodo paraa el modo ecologico
+    /// </summary>
     public override void ModoEcologico()
     {
         Console.WriteLine($"Modo ecologico activado para [{Id}]-{NombreDisp} \n");

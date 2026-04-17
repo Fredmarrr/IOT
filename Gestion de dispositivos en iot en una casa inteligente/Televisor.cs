@@ -21,7 +21,9 @@
     {
         CanalActual = canalActual;
     }
-
+    /// <summary>
+    /// Cambia de canales validando informacion
+    /// </summary>
     public void CambiarCanales()
     {
         Console.WriteLine("Cambiando canal por:\n");
@@ -40,6 +42,9 @@
             Console.WriteLine(ex.Message);
         }
     }
+    /// <summary>
+    /// Modo ecologico Reescrito para Televisor
+    /// </summary>
     public override void ModoEcologico()
     {
         if(!ModoEco)

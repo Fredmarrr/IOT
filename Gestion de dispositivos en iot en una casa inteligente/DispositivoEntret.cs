@@ -21,6 +21,9 @@
     {
         Volumen = volumen;
     }
+    /// <summary>
+    /// Sube el volumen
+    /// </summary>
     public virtual void SubirVolumen()
     {
         if (EstadoOF && Volumen < 100)
@@ -33,6 +36,9 @@
             Console.WriteLine($"Debe encender [{Id}]-{NombreDisp} para realizar esta acción\n");
         }
     }
+    /// <summary>
+    /// baja el volumen
+    /// </summary>
     public virtual void BajarVolumen()
     {
         if (EstadoOF && Volumen > 0)

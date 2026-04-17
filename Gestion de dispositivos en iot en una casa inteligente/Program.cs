@@ -13,7 +13,7 @@ catch (ArgumentOutOfRangeException ex)
 {
     Console.WriteLine(ex.Message);
     throw;
-}
+} 
 catch (ArgumentException ex)
 {
 	Console.WriteLine(ex.Message);

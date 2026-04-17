@@ -4,7 +4,7 @@
     public int? Temperatura
 
     {
-
+        
         get => _temperatura;
 
         protected set
@@ -23,6 +23,9 @@
     {
         Temperatura = temperatura;
     }
+    /// <summary>
+    /// Sube la temperatura con una validacion
+    /// </summary>
     public virtual void SubirTemp()
     {
         if (EstadoOF && Temperatura > 14)
@@ -33,6 +36,9 @@
         else if (!EstadoOF)
             Console.WriteLine($"Debe encender [{Id}]-{NombreDisp} para realizar esta acción\n");
     }
+    /// <summary>
+    /// Baja la temperatura con una validacion
+    /// </summary>
     public virtual void BajarTemp()
     {
         if (EstadoOF && Temperatura < 33)
